@@ -1,9 +1,7 @@
-import display
 import sensor_readers
-import prediction_engine
+import prediction_engine, realtime_data_processor, display
 import notification_manager
 import notifications_sender
-import realtime_data_processor
 from multiprocessing import Queue
 from common_types import Contact
 from database import InMemorySimpleDatabase

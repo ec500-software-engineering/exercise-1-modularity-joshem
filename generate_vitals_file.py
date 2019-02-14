@@ -10,6 +10,7 @@ def create_vitals_file(filename):
         # second column: blood pressure (diastolic)
         # third column: heartbeat per min
         # fourth column: oxygen level (in percentage)
+        # print("flimmity flam floogel")
         line = str(random.randint(70, 140)) + "	" + str(random.randint(40, 90)) + "	" + str(
             random.randint(60, 100)) + "	" + str(random.randint(0, 100))
         afile.write(line + "\n")

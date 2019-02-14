@@ -23,6 +23,7 @@ class BloodPulseSensor(object):
         Credit to eunghee@bu.edu
         :return:
         '''
+       # print("fimmity flam flam floogel")
         return random.randint(49, 111)
 
 

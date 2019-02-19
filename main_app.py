@@ -1,5 +1,7 @@
 import sensor_readers
-import prediction_engine, realtime_data_processor, display
+import prediction_engine
+import realtime_data_processor
+import display
 import notification_manager
 import notifications_sender
 from multiprocessing import Queue
